@@ -1,0 +1,7 @@
+# Pin & Location Assignments
+# ==========================
+set_location_assignment PIN_U7 -to GPIO0_D # [31]
+set_location_assignment PIN_J6 -to SW # [0]
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO0_D # [31]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW # [0]
