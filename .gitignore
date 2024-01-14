@@ -8,3 +8,9 @@
 *.qsf
 *.qws
 *.bak
+
+# ModelSim generated folders and files
+/work
+*.mti
+*.mpf
+*.wlf
